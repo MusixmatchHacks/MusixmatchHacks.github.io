@@ -1,0 +1,179 @@
+@font-face {
+  font-family: "Gotham";
+  src: url('../fonts/gotham_3.eot');
+  src: url("../fonts/gotham_3.woff") format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  text-align: center;
+}
+
+body {
+  font-family: 'Gotham', 'HelveticaNeue', 'Helvetica', sans-serif;
+  text-align: center;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+h1 {
+  margin: 25px 0 0 0;
+  font-size: 1.5em;
+  text-indent: 27px;
+  background: url(../assets/logo.png) no-repeat -9px -7px;
+  background-size: 42px;
+  line-height: 30px;
+}
+
+h1 > a {
+}
+
+h1 > a > img {
+  width: 19px;
+  margin-left: 10px;
+  position: relative;
+  top: 1px;
+}
+
+p {
+  margin: 1em 0;
+}
+
+a, a:visited {
+  color: #00a;
+}
+
+section, article, header#intro {
+  margin: 50px;
+}
+
+section > header {
+  text-align: left;
+  text-transform: uppercase;
+}
+
+section a figure {
+  text-align: left;
+  text-transform: uppercase;
+  color: #666;
+}
+
+section a figure .image {
+  width: 100%;
+  padding-bottom: 60%;
+  margin: 0;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  border: 1px solid #efefef;
+}
+
+section a:hover figure img {
+}
+
+section figcaption {
+  margin: 7px 0;
+  font-size: 0.9em;
+}
+
+section#visualizations a {
+  text-decoration: none;
+  color: #000 !important;
+}
+
+section#visualizations ul {
+  text-align: left;
+}
+
+section#visualizations > ul li {
+  display: inline-block;
+  vertical-align: top;
+  width: 31%;
+  margin: 30px 2% 0 0;
+}
+
+nav {
+  text-align: right;
+}
+
+header.address, footer {
+  margin: 10px 0;
+  font-size: 0.7em;
+}
+
+header.address img, footer img {
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (max-width: 1300px) {
+  section#visualizations > ul li {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+    margin: 30px 2% 0 0;
+  }
+}
+
+/* thumbnails */
+section li a figure .narcissism {
+  background-image: url(./images/narcissism2.png);
+}
+
+section li a figure .polyglot {
+  background-image: url(./images/polyglot.png);
+}
+
+section li a figure .lyrics_burst {
+  background-image: url(./images/lyricsBurst.png);
+}
+
+section li a figure .imgine {
+  background-image: url(./images/imgine.png);
+}
+
+section li a figure .playlister {
+  background-image: url(./images/playlister.png);
+}
+
+section li a figure .vyrical {
+  background-image: url(./images/vyrical.png);
+}
+
+section li a figure .johnnycash {
+  background-image: url(./images/johnnycash.png);
+}
+
+section li a figure .slackBot {
+  background-image: url(./images/slackBot.png);
+}
+
+section li a figure .cdLyrics {
+  background-image: url(./images/cdLyrics2.png);
+}
+
+section li a figure .pimpMyRadio {
+  background-image: url(./images/pimpMyRadio.png);
+}
+
+section li a figure .pebble {
+  background-image: url(./images/pebble.png);
+}
+
+section li a figure .lJay {
+  background-image: url(./images/lJay.png);
+}
+
+section li a figure .wallify {
+  background-image: url(./images/wallify.png);
+}
+
+section li a figure .solamimi {
+  background-image: url(./images/solamimi.png);
+}
