@@ -60,7 +60,7 @@ section > header {
 
 section a figure {
   text-align: left;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #666;
 }
 
