@@ -122,6 +122,14 @@ header.address img, footer img {
 }
 
 /* thumbnails */
+section li a figure .lyricIpsum {
+  background-image: url(./images/lyricIpsum.png);
+}
+
+section li a figure .rhymeBot {
+  background-image: url(./images/rhymeBot.png);
+}
+
 section li a figure .narcissism {
   background-image: url(./images/narcissism2.png);
 }
