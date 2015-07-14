@@ -83,6 +83,10 @@ section figcaption {
   font-size: 0.9em;
 }
 
+section#visualizations {
+  min-width : 1160px;
+}
+
 section#visualizations a {
   text-decoration: none;
   color: #000 !important;
@@ -113,6 +117,7 @@ header {
   height : 150px;
   margin : 0 auto;
   padding-top : 50px;
+  min-width : 1160px;
 }
 
 .header_sub {
@@ -203,11 +208,24 @@ header.address img, footer img {
   height: 16px;
 }
 
-@media screen and (max-width: 1300px) {
-  section#visualizations > ul li {
-    display: inline-block;
-    vertical-align: top;
-    width: 48%;
-    margin: 30px 2% 0 0;
+@media screen and (max-width: 1160px) {
+  .hack_card {
+    width : 150px; 
+  }
+
+  .hack_explanation {
+    display : none;
   }
 }
+
+
+@media screen and (max-width: 600px) {
+  .hack_card {
+    width : 500px; 
+  }
+
+  .hack_explanation {
+    display : none;
+  }
+}
+
