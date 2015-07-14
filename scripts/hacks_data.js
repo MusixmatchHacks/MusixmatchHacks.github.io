@@ -1,6 +1,6 @@
 var hack_data = [
 	{
-		image: 'images/lyricipsum.png',
+		image: 'images/lyricIpsum.png',
 		title: 'Lyric Ipsum: Generate Lorem Ipsum from your favourite band\'s lyrics ',
 		subTitle: 'Made at the Music Hackday Boston 2014',
 		link: 'http://lyricipsum.com/'
