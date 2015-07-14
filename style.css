@@ -102,9 +102,25 @@ nav {
   text-align: right;
 }
 
-header.address, footer {
+.address, footer {
   margin: 10px 0;
   font-size: 0.7em;
+}
+
+header {
+  width : 960px;
+  height : 150px;
+  margin : 0 auto;
+  padding-top : 50px;
+}
+
+.header_sub {
+  display : block;
+  font-family: ProximaNova-Regular;
+  font-size: 18px;
+  color: rgba(0,0,0,0.52);
+  line-height: 22px;
+  margin-top : 20px;
 }
 
 header.address img, footer img {
