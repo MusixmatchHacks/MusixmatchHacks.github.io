@@ -1,7 +1,11 @@
 @font-face {
-  font-family: "Gotham";
-  src: url('../fonts/gotham_3.eot');
-  src: url("../fonts/gotham_3.woff") format("woff");
+  font-family: "ProximaNova-Regular";
+  src: url(fonts/proximanova-regular-webfont.woff) format("woff");
+}
+
+@font-face {
+  font-family: "ProximaNova-Semibold";
+  src: url(fonts/proximanova-bold-webfont.woff) format("woff");
 }
 
 * {
@@ -218,14 +222,15 @@ header.address img, footer img {
   }
 }
 
-
-@media screen and (max-width: 600px) {
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+  
   .hack_card {
-    width : 500px; 
-  }
-
-  .hack_explanation {
     display : none;
   }
 }
+
 
