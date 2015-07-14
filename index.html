@@ -17,77 +17,23 @@
         <span class = "header_sub">a collection of hacks created using the <a href = "developer.musixmatch.com">Musixmatch API</a></span>
     </header>
     <section id="visualizations">
-        <ul>
-            <li class = "hack_card">
-                <!-- <a href="http://lyricipsum.com/"> -->
-                    <div class = "hack_image" style = "background-image : url(images/lyricipsum.png)">
-                    </div >
-                    <div class = "hack_content">
-                        <div class = "hack_title">Lyric Ipsum: Generate Lorem Ipsum from your favourite band's lyrics </div>
-                        <div class = "hack_explanation">Made at the Music Hackday Boston 2014</div>
-                    </div>
-                <!-- </a> -->
-            </li>
+        <ul id = "hack_collection">
 
-            <li> 
-                <a href="http://lyricipsum.com/">
-                    <figure>
-                        <div class="image lyricIpsum "></div>
-                        <figcaption>Lyric Ipsum: Generate Lorem Ipsum from your favourite band's lyrics <br>Made at the Music Hackday Boston 2014</figcaption>
-                    </figure>
-                </a>
-            </li>
-
-            <li>
-                <a href="https://twitter.com/RhymeBustingBot">
-                    <figure>
-                        <div class="image rhymeBot "></div>
-                        <figcaption>RhymeBustingBot: A Twitter bot that pitches rappers in a "freestyle" battle.  <br>Made at the Music Hackday London 2014</figcaption>
-                    </figure>
-                </a>
-            </li> 
-
-            <li>
-                <a href="http://lab.musixmatch.com/narcissism/">
-                    <figure>
-                        <div class="image narcissism "></div>
-                        <figcaption>How narcissistic is your favourite artist ? <br>Made at the Music Hackday Boston 2014</figcaption>
-                    </figure>
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/maxciociola/status/530394433049878528">
-                    <figure>
-                        <div class="image slackBot "></div>
-                        <figcaption>mxmBot: Lyric snippets for Slack <br>Made at the weekly hackday at the Musixmatch office 2014</figcaption>
-                    </figure>
-                </a>
-            </li>
-
-            <li>
-                <a href="http://lab.musixmatch.com/polyglottis3/">
-                    <figure>
-                        <div class="image polyglot "></div>
-                        <figcaption>Polyglottis: Duolingo + Musixmatch to make foreign language playlists <br>Made at the Robot Music Hackday Bologna 2014</figcaption>
-                    </figure>
-                </a>
-            </li>
-            <li>
-                <a href="http://vyrical.rtrfz.com/">
-                    <figure>
-                        <div class="image vyrical "></div>
-                        <figcaption>Vyrical: Gifs synced to music and lyrics <br>Made by Simon Archer for the Hack Manchester 2014</figcaption>
-                    </figure>
-                </a>
-            </li>
-            <li>
-                <a href="http://lab.musixmatch.com/lyrics_burst/">
-                    <figure>
-                        <div class="image lyrics_burst "></div>
-                        <figcaption>Lyrics burst: Visualisation <br>Made at the Music Hackday Amsterdam 2014</figcaption>
-                    </figure>
-                </a>
-            </li>
+            <script id = "template-hackcard" type = "text/x-handlebars-template">
+            {{#each this}}
+                <li class = "hack_card">
+                    <a href="{{link}}">
+                        <div class = "hack_image" style = "background-image : url({{image}})">
+                        </div >
+                        <div class = "hack_content">
+                            <div class = "hack_title">{{title}}</div>
+                            <div class = "hack_explanation">{{subTitle}}</div>
+                        </div>
+                    </a>
+                </li>
+            {{/each}}
+            </script>
+           <!-- <li class = "hack_card">
             <li>
                 <a href="http://lab.musixmatch.com/imgine/">
                     <figure>
@@ -191,7 +137,7 @@
                         <figcaption>Wisebabblr: online, interactive version of your artist of choice<br> Made at the Music Hackday Barcelona 2011</figcaption>
                     </figure>
                 </a>
-            </li>
+            </li>  -->
         </ul>
     </section>
     <a class="twitter-share-button" href="http://twitter.com/share" data-url="http://lab.musixmatch.com/" data-text="Musixmatch hacks at various hackdays" data-hashtags="musixmatch, lyrics, musichackday">Tweet</a>
@@ -202,6 +148,13 @@
 
     <div id="ugdv_jqContextMenu" style="display: none; position: absolute; z-index: 9999;"></div>
     <div style="position: absolute; zoom: 1; z-index: 9998; display: none; background-color: rgb(0, 0, 0);"></div>
+
+
+
+    <script type = "text/javascript" src = "scripts/lib/jquery.min.js"></script>
+    <script type = "text/javascript" src = "scripts/lib/handlebars-v3.0.3.js"></script>
+    <script type = "text/javascript" src = "scripts/hacks_data.js"></script>
+    <script type = "text/javascript" src = "scripts/main.js"></script>
     
 </body>
 
