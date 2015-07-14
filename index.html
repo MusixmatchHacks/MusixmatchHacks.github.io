@@ -22,7 +22,8 @@
             <script id = "template-hackcard" type = "text/x-handlebars-template">
             {{#each this}}
                 <li class = "hack_card">
-                    <a href="{{link}}">
+                    <a href="{{link}}" target = "blank">
+                    <div id = "overlay"></div>
                         <div class = "hack_image" style = "background-image : url({{image}})">
                         </div >
                         <div class = "hack_content">
