@@ -140,6 +140,8 @@ header {
 }
 
 .header_sub {
+  position : relative;
+  z-index : 10;
   display : block;
   font-family: Regular;
   font-size: 18px;
