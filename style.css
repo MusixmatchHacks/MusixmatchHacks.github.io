@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "ProximaNova-Regular";
+  font-family: "Regular";
   src: url(fonts/proximanova-regular-webfont.woff) format("woff");
 }
 
 @font-face {
-  font-family: "ProximaNova-Semibold";
+  font-family: "Semibold";
   src: url(fonts/proximanova-bold-webfont.woff) format("woff");
 }
 
@@ -126,7 +126,7 @@ header {
 
 .header_sub {
   display : block;
-  font-family: ProximaNova-Regular;
+  font-family: Regular;
   font-size: 18px;
   color: rgba(0,0,0,0.52);
   line-height: 22px;
@@ -189,7 +189,7 @@ header {
 }
 
 .hack_title {
-  font-family: ProximaNova-Semibold;
+  font-family: Semibold;
   font-size: 18px;
   color: #000000;
   line-height: 22px;
@@ -199,7 +199,7 @@ header {
 }
 
 .hack_explanation {
-  font-family: ProximaNova-Regular;
+  font-family: Regular;
   font-size: 14px;
   color: #979797;
   line-height: 17px;
