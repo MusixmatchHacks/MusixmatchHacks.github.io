@@ -1,5 +1,29 @@
 var hack_data = [
 	{
+		image: 'images/vocabulary.png',
+		title: 'The largest vocabulary in music: An analysis of vocabularies of top selling musicians',
+		subTitle: 'Study by Musixmatch',
+		link: 'http://lab.musixmatch.com/largest_vocabulary/'
+	},
+	{
+		image: 'images/intervalTrainer.png',
+		title: 'Interval trainer: A mobile game that helps memorise music intervals',
+		subTitle: 'Made at the Barcelona Music Hackday 2015',
+		link: 'https://www.hackerleague.org/hackathons/music-hack-day-barcelona-2015/hacks/interval-trainer'
+	},
+	{
+		image: 'images/autocomplete.png',
+		title: "Write like Kanye: What does the autocomplete on Kanye's cellphone prompt ?",
+		subTitle: 'Made at the Midem Music Hackday 2015',
+		link: 'http://lab.musixmatch.com/write_like/'
+	},
+	{
+		image: 'images/rediscover.png',
+		title: 'redisCover: Have you wondered what cover versions are out there for you favourite tune?',
+		subTitle: 'Made at the London Music Hackday 2014',
+		link: 'https://vimeo.com/129537675'
+	},
+	{
 		image: 'images/lyricIpsum.png',
 		title: 'Lyric Ipsum: Generate Lorem Ipsum from your favourite band\'s lyrics ',
 		subTitle: 'Made at the Music Hackday Boston 2014',
