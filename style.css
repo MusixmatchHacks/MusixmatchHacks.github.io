@@ -229,6 +229,13 @@ header.address img, footer img {
   height: 16px;
 }
 
+.amazon-logo {
+  background: url(images/amazon-logo-black.png) no-repeat;
+  width: 120px;
+  height: 46px;
+  margin: 0 auto 20px auto;
+}
+
 @media screen and (max-width: 1160px) {
   .hack_card {
     width : 150px; 
@@ -250,4 +257,13 @@ header.address img, footer img {
   }
 }
 
+/* Retina display ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5), not all {
 
+  .amazon-logo {
+    background-image: url(images/amazon-logo-black@2x.png);
+    background-size: 120px 46px;
+  }
+
+}
