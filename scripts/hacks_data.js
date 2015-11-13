@@ -1,5 +1,11 @@
 var hack_data = [
 	{
+		image: 'images/adeleTomWaits.png',
+		title: 'Are Adele’s Hello and Tom Waits’ Martha similar?',
+		subTitle: 'Study by Musixmatch',
+		link: 'http://lab.musixmatch.com/hello_martha/'
+	},
+	{
 		image: 'images/vocabulary.png',
 		title: 'The largest vocabulary in music: An analysis of vocabularies of top selling musicians',
 		subTitle: 'Study by Musixmatch',
@@ -26,7 +32,7 @@ var hack_data = [
 	{
 		image: 'images/lyricIpsum.png',
 		title: 'Lyric Ipsum: Generate Lorem Ipsum from your favourite band\'s lyrics ',
-		subTitle: 'Made at the Music Hackday Boston 2014',
+		subTitle: 'Made at the Music Hackday London 2014',
 		link: 'http://lyricipsum.com/'
 	},
 	{
@@ -86,7 +92,7 @@ var hack_data = [
 	{
 		image: 'images/solamimi.png',
 		title: 'Solamimi: Misheard lyrics',
-		subTitle: 'Made by Hiroyuki Koike for Music Hackday Tokyo 2014',
+		subTitle: 'Made at the Music Hackday Tokyo 2014', //by Hiroyuki Koike for
 		link: 'http://www.plus-add.com/solamimi/'
 	},
 	{
@@ -122,7 +128,7 @@ var hack_data = [
 	{
 		image: 'images/johnnycash.png',
 		title: 'Johnny Cash has been everywhere (man!)',
-		subTitle: 'Made by Iain Mullan for Music Hack Day London 2012',
+		subTitle: 'Made at the Music Hack Day London 2012', //by Iain Mullan for
 		link: 'http://www.johnnycashhasbeeneverywhere.com/'
 	},
 	{
