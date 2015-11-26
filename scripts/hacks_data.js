@@ -1,5 +1,11 @@
 var hack_data = [
 	{
+		image: 'images/adele25Weekend.png',
+		title: "Adele's new album: It's all about the lyrics",
+		subTitle: 'Study by Musixmatch',
+		link: 'http://lab.musixmatch.com/adele_25_weekend/'
+	},
+	{
 		image: 'images/adeleTomWaits.png',
 		title: 'Are Adele’s Hello and Tom Waits’ Martha similar?',
 		subTitle: 'Study by Musixmatch',
