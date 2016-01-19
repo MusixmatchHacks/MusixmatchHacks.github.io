@@ -5,7 +5,7 @@ var hack_data = [{
     link: 'http://lab.musixmatch.com/profanity_representative_artists/'
   },{
     image: 'images/genres_profanity.jpg',
-    title: "Hip hop lyrics are the most profane followed by Heavy Metal while Folk & Country lyrics are the least profane",
+    title: "Hip hop lyrics are the most profane followed by Heavy Metal",
     subTitle: 'Study by Musixmatch',
     link: 'http://lab.musixmatch.com/profanity_genres/'
   },{
