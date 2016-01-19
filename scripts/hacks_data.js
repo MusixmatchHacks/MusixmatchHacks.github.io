@@ -1,4 +1,9 @@
 var hack_data = [{
+    image: 'images/artists_profanity.png',
+    title: "Most profane artists in music",
+    subTitle: 'Study by Musixmatch',
+    link: 'http://lab.musixmatch.com/profanity_representative_artists/'
+  },{
     image: 'images/genres_profanity.jpg',
     title: "Hip hop lyrics are the most profane followed by Heavy Metal while Folk & Country lyrics are the least profane",
     subTitle: 'Study by Musixmatch',

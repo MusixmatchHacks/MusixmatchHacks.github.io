@@ -4,81 +4,127 @@
 <html>
 
 <head>
-    <title>Musixmatch lab</title>
-    <link rel="stylesheet" href="style.css" type="text/css" media="screen, projection, handheld">
-    <style type="text/css">
-    </style>
+  <title>Musixmatch lab</title>
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="styles/main.css" type="text/css" media="screen, projection, handheld">
+  <link rel="stylesheet" href="styles/mailchimp.css">
+  <style type="text/css">
+
+  </style>
 </head>
 
-<body >
+<body>
 
-    <header>
-        <div id="headerOverlay"></div>
-        <img src="images/main_logo.png" height="56" width="330" alt="" id = "main_logo">
-        <span class = "header_sub">A collection of studies and experiments using lyrics data from <a href='https://www.musixmatch.com/'>Musixmatch</a></span>
-    </header>
+  <header>
+    <div id="headerOverlay"></div>
+    <img src="images/main_logo.png" height="56" width="330" alt="" id="main_logo">
+    <span class="header_sub">A collection of studies and experiments using lyrics data from <a href='https://www.musixmatch.com/'>Musixmatch</a></span>
+    <!-- <div class='sign-up center-block'>
+      <div id="mc_embed_signup">
+        <form action="//musixmatch.us12.list-manage.com/subscribe/post?u=4b3001a7018f0f85c4658b0c7&amp;id=222b95fbdf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+            <h2></h2>
+            <div class="mc-field-group">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email address">
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
 
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_4b3001a7018f0f85c4658b0c7_222b95fbdf" tabindex="-1" value="">
+            </div>
+            <div class="clear text-center">
+              <input type="submit" value="Subscribe for updates" name="subscribe" id="mc-embedded-subscribe" class="button">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div> -->
 
-    <section id="visualizations">
-        <ul id = "hack_collection">
-
-            <script id = "template-hackcard" type = "text/x-handlebars-template">
-            {{#each this}}
-                <li class = "hack_card">
-                    <a href="{{link}}" target = "blank">
-                    <div id = "overlay"></div>
-                        <div class = "hack_image" style = "background-image : url({{image}})">
-                        </div >
-                        <div class = "hack_content">
-                            <div class = "hack_title">{{title}}</div>
-                            <div class = "hack_explanation">{{subTitle}}</div>
-                        </div>
-                    </a>
-                </li>
-            {{/each}}
-            </script>
-        </ul>
-    </section>
-
-
-    <footer>
-    	<a class="twitter-share-button" href="http://twitter.com/share" data-url="http://lab.musixmatch.com/" data-text="Musixmatch hacks at various hackdays" data-hashtags="musixmatch, lyrics, musichackday">Tweet</a>
-    	<div class="amazon-logo"></div>
-    </footer>
+  </header>
 
 
-    <div id="ugdv_jqContextMenu" style="display: none; position: absolute; z-index: 9999;"></div>
-    <div style="position: absolute; zoom: 1; z-index: 9998; display: none; background-color: rgb(0, 0, 0);"></div>
+  <section id="visualizations">
+    <ul id="hack_collection">
+
+      <script id="template-hackcard" type="text/x-handlebars-template">
+        {{#each this}}
+        <li class="hack_card">
+          <a href="{{link}}" target="blank">
+            <div id="overlay"></div>
+            <div class="hack_image" style="background-image : url({{image}})">
+            </div>
+            <div class="hack_content">
+              <div class="hack_title">{{title}}</div>
+              <div class="hack_explanation">{{subTitle}}</div>
+            </div>
+          </a>
+        </li>
+        {{/each}}
+      </script>
+    </ul>
+  </section>
+
+
+  <footer>
+    <a class="twitter-share-button" href="http://twitter.com/share" data-url="http://lab.musixmatch.com/" data-text="Musixmatch hacks at various hackdays" data-hashtags="musixmatch, lyrics, musichackday">Tweet</a>
+    <div class="amazon-logo"></div>
+  </footer>
+
+
+  <div id="ugdv_jqContextMenu" style="display: none; position: absolute; z-index: 9999;"></div>
+  <div style="position: absolute; zoom: 1; z-index: 9998; display: none; background-color: rgb(0, 0, 0);"></div>
 
 
 
-    <script type = "text/javascript" src = "scripts/lib/jquery.min.js"></script>
-    <script type = "text/javascript" src = "scripts/lib/handlebars-v3.0.3.js"></script>
-    <script type = "text/javascript" src = "scripts/hacks_data.js"></script>
-    <script type = "text/javascript" src = "scripts/main.js"></script>
+  <script type="text/javascript" src="scripts/lib/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/lib/handlebars-v3.0.3.js"></script>
+  <script type="text/javascript" src="scripts/hacks_data.js"></script>
+  <script type="text/javascript" src="scripts/main.js"></script>
+  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+  <script type='text/javascript'>
+    (function($) {
+      window.fnames = new Array();
+      window.ftypes = new Array();
+      fnames[0] = 'EMAIL';
+      ftypes[0] = 'email';
+    }(jQuery));
+    var $mcj = jQuery.noConflict(true);
+  </script>
 
-</body>
-
-<script>
-! function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0],
+  <script>
+    ! function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
         p = /^http:/.test(d.location) ? 'http' : 'https';
-    if (!d.getElementById(id)) {
+      if (!d.getElementById(id)) {
         js = d.createElement(s);
         js.id = id;
         js.src = p + '://platform.twitter.com/widgets.js';
         fjs.parentNode.insertBefore(js, fjs);
-    }
-}(document, 'script', 'twitter-wjs');
-</script>
+      }
+    }(document, 'script', 'twitter-wjs');
+  </script>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-53134539-1', 'auto');
-  ga('send', 'pageview');
-</script>
+    ga('create', 'UA-53134539-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</body>
+
+
 </html>

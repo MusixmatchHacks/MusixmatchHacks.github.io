@@ -118,7 +118,7 @@ nav {
 
 header {
   width : 960px;
-  height : 150px;
+  height : 250px;
   margin : 0 auto;
   padding-top : 50px;
   min-width : 1160px;
@@ -160,7 +160,7 @@ header {
 .hack_card {
   position: relative;
   border : 1px solid #B9B9B9;
-  width : 200px; 
+  width : 200px;
   height : 400px;
   border-radius : 4px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
@@ -238,7 +238,7 @@ header.address img, footer img {
 
 @media screen and (max-width: 1160px) {
   .hack_card {
-    width : 150px; 
+    width : 150px;
   }
 
   .hack_explanation {
@@ -247,11 +247,11 @@ header.address img, footer img {
 }
 
 /* Portrait and Landscape */
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
   and (-webkit-device-pixel-ratio: 2) {
-  
+
   .hack_card {
     display : none;
   }
