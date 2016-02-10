@@ -1,4 +1,9 @@
 var hack_data = [{
+    image: 'images/grammy.png',
+    title: "Predicting the Grammys with data",
+    subTitle: 'Study by Musixmatch',
+    link: 'http://lab.musixmatch.com/grammy/'
+  },{
     image: 'images/artists_profanity.png',
     title: "Most profane artists in music",
     subTitle: 'Study by Musixmatch',
